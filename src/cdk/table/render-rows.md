@@ -9,7 +9,7 @@ Each table's template is defined as a set of row and column templates. The row t
 be rendered for a header, footer, or data row. The column templates include the cell templates that will be inserted
 into each rendered row.
 
-Each data object may be rendered with one or more row templates. When new data in provided to the table, the table
+Each data object may be rendered with one or more row templates. When new data is provided to the table, the table
 determines which rows need to be rendered. In order to be efficient, the table attempts to understand how the new list
 of rendered rows differs from the previous list of rendered rows so that it can re-use the current list of rendered rows
 if possible.
